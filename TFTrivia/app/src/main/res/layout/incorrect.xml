@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingLeft="15dp"
+    android:paddingRight="15dp"
+    android:background="@drawable/black_paper">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:id="@+id/screen"
+        android:layout_gravity="center_vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="42sp"
+            android:textColor="#FFFFFF"
+            android:text="Incorrect"
+            android:id="@+id/incorrect"
+            android:paddingTop="?android:attr/actionBarSize"
+            android:layout_marginTop="62dp"
+            android:layout_marginBottom="34sp"
+            android:layout_gravity="center_horizontal"/>
+
+        <TextView
+            android:layout_width="320dp"
+            android:layout_height="200dp"
+            android:id="@+id/response"
+            android:textColor="#FFFFFF"
+            android:layout_marginBottom="52sp"
+            android:textSize="24sp"
+            android:gravity="center"
+            android:layout_gravity="center_horizontal"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:textColor="#cecece"
+            android:textStyle="italic"
+            android:id="@+id/tap"
+            android:text="tap to continue"
+            android:layout_gravity="center_horizontal"/>
+
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,11 @@
+<android.support.design.internal.NavigationMenuItemView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="?attr/listPreferredItemHeightSmall"
+    android:paddingLeft="?attr/listPreferredItemPaddingLeft"
+    android:paddingRight="?attr/listPreferredItemPaddingRight"
+    android:gravity="center_vertical|start"
+    android:maxLines="1"
+    android:fontFamily="sans-serif-thin"
+    android:textSize="42sp"
+    android:textAppearance="?attr/textAppearanceListItem" />

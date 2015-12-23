@@ -1,0 +1,481 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+    <TableLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:stretchColumns="1"
+        >
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    android:background="@drawable/paper_texture"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:showIn="@layout/app_bar_main"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:text="Trophy Room"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:paddingTop="?android:attr/actionBarSize"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="21dp"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:id="@+id/trophyRoom"
+        android:textSize="30sp"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="116dp"
+        android:orientation="horizontal"
+        android:layout_margin="10dp">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <ImageView
+                android:layout_width="90dp"
+                android:layout_height="80dp"
+                android:src="@drawable/trophy_1_empty"
+                android:id="@+id/trophy_1"
+                android:layout_gravity="top"
+                android:layout_marginLeft="12dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="22dp"
+                android:layout_marginLeft="32dp"
+                android:textSize="14sp"
+                android:text="Pyramid"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+                <ImageView
+                    android:layout_width="90dp"
+                    android:layout_height="80dp"
+                    android:src="@drawable/trophy_2_empty"
+                    android:id="@+id/trophy_2"
+                    android:layout_gravity="top"
+                    android:layout_marginLeft="18dp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="22dp"
+                    android:layout_marginLeft="15dp"
+                    android:textSize="14sp"
+                    android:text="Cuboctahedron"/>
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+        <ImageView
+            android:layout_width="90dp"
+            android:layout_height="80dp"
+            android:src="@drawable/trophy_3_empty"
+            android:id="@+id/trophy_3"
+            android:layout_gravity="top"
+            android:layout_marginLeft="15dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="22dp"
+                android:layout_marginLeft="22dp"
+                android:textSize="14sp"
+                android:text="Icosahedron"/>
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="116dp"
+        android:orientation="horizontal"
+        android:layout_margin="10dp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <ImageView
+                android:layout_width="90dp"
+                android:layout_height="80dp"
+                android:src="@drawable/trophy_4_empty"
+                android:id="@+id/trophy_4"
+                android:layout_gravity="top"
+                android:layout_marginLeft="14dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="35dp"
+                android:layout_marginLeft="22dp"
+                android:textSize="14sp"
+                android:gravity="center"
+                android:text="Star\nTetrahedron"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <ImageView
+                android:layout_width="90dp"
+                android:layout_height="80dp"
+                android:src="@drawable/trophy_5_empty"
+                android:id="@+id/trophy_5"
+                android:layout_gravity="top"
+                android:layout_marginLeft="120dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="35dp"
+                android:layout_marginLeft="133dp"
+                android:gravity="center"
+                android:textSize="14sp"
+                android:text="Impossible\nTriangle"/>
+        </LinearLayout>
+
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <ImageView
+                android:layout_width="90dp"
+                android:layout_height="80dp"
+                android:src="@drawable/trophy_6_empty"
+                android:id="@+id/trophy_6"
+                android:layout_gravity="top"
+                android:layout_marginLeft="228dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="35dp"
+                android:layout_marginLeft="238dp"
+                android:gravity="center"
+                android:textSize="14sp"
+                android:text="Impossible\nRing"/>
+        </LinearLayout>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="116dp"
+        android:orientation="horizontal"
+        android:layout_margin="10dp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <ImageView
+                android:layout_width="90dp"
+                android:layout_height="80dp"
+                android:src="@drawable/trophy_7_empty"
+                android:id="@+id/trophy_7"
+                android:layout_gravity="top"
+                android:layout_marginLeft="15dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="33dp"
+                android:layout_marginLeft="28dp"
+                android:textSize="14sp"
+                android:text="Crazy Eight"/>
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+        <ImageView
+            android:layout_width="90dp"
+            android:layout_height="80dp"
+            android:src="@drawable/trophy_8_empty"
+            android:id="@+id/trophy_8"
+            android:layout_gravity="top"
+            android:layout_marginLeft="123dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="33dp"
+                android:layout_marginLeft="124dp"
+                android:gravity="center"
+                android:textSize="14sp"
+                android:text="Star\nCubestellation"/>
+        </LinearLayout>
+
+
+        <ImageView
+            android:layout_width="90dp"
+            android:layout_height="80dp"
+            android:layout_gravity="top"
+            android:layout_marginLeft="15dp"/>
+
+    </RelativeLayout>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:src="@drawable/trophy_room_bar"
+        android:layout_gravity="center_horizontal"/>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="116dp"
+        android:orientation="horizontal"
+        android:layout_marginTop="25dp"
+        android:layout_marginLeft="10dp">
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+        <ImageView
+            android:layout_width="90dp"
+            android:layout_height="85dp"
+            android:src="@drawable/cult_trophy_empty"
+            android:layout_gravity="top"
+            android:layout_marginLeft="15dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="33dp"
+                android:layout_marginLeft="40dp"
+                android:textSize="14sp"
+                android:text="Culture"/>
+        </LinearLayout>
+
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+        <ImageView
+            android:layout_width="90dp"
+            android:layout_height="85dp"
+            android:src="@drawable/ent_trophy_empty"
+            android:layout_gravity="top"
+            android:layout_marginLeft="125dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="33dp"
+                android:layout_marginLeft="127dp"
+                android:textSize="14sp"
+                android:text="Entertainment"/>
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <ImageView
+                android:layout_width="90dp"
+                android:layout_height="85dp"
+                android:src="@drawable/geo_trophy_empty"
+                android:layout_gravity="top"
+                android:layout_marginLeft="230dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="33dp"
+                android:layout_marginLeft="242dp"
+                android:textSize="14sp"
+                android:text="Geography"/>
+        </LinearLayout>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="116dp"
+        android:orientation="horizontal"
+        android:layout_margin="10dp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <ImageView
+                android:layout_width="90dp"
+                android:layout_height="85dp"
+                android:src="@drawable/hist_trophy_empty"
+                android:layout_gravity="top"
+                android:layout_marginLeft="15dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="33dp"
+                android:layout_marginLeft="40dp"
+                android:textSize="14sp"
+                android:text="History"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <ImageView
+                android:layout_width="90dp"
+                android:layout_height="85dp"
+                android:src="@drawable/plantanimal_trophy_empty"
+                android:layout_gravity="top"
+                android:layout_marginLeft="125dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="33dp"
+                android:layout_marginLeft="120dp"
+                android:textSize="14sp"
+                android:text="Plants &amp; Animals"/>
+        </LinearLayout>
+
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <ImageView
+                android:layout_width="90dp"
+                android:layout_height="85dp"
+                android:src="@drawable/science_trophy_empty"
+                android:layout_gravity="top"
+                android:layout_marginLeft="230dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="33dp"
+                android:layout_marginLeft="253dp"
+                android:textSize="14sp"
+                android:text="Science"/>
+        </LinearLayout>
+
+    </RelativeLayout>
+
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:src="@drawable/trophy_room_bar"
+        android:layout_gravity="center_horizontal"/>
+
+
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="116dp"
+        android:orientation="horizontal"
+        android:layout_marginTop="25dp"
+        android:layout_marginLeft="10dp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <ImageView
+                android:layout_width="90dp"
+                android:layout_height="80dp"
+                android:src="@drawable/trophy_heart_empty"
+                android:id="@+id/trophy_heart"
+                android:layout_gravity="top"
+                android:layout_marginLeft="15dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="33dp"
+                android:layout_marginLeft="43dp"
+                android:textSize="14sp"
+                android:text="Heart"/>
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+        <ImageView
+            android:layout_width="90dp"
+            android:layout_height="80dp"
+            android:src="@drawable/trophy_soul_empty"
+            android:id="@+id/trophy_soul"
+            android:layout_gravity="top"
+            android:layout_marginLeft="130dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="33dp"
+                android:layout_marginLeft="162dp"
+                android:textSize="14sp"
+                android:text="Soul"/>
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <ImageView
+                android:layout_width="90dp"
+                android:layout_height="80dp"
+                android:src="@drawable/trophy_mind_empty"
+                android:id="@+id/trophy_mind"
+                android:layout_gravity="top"
+                android:layout_marginLeft="231dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="33dp"
+                android:layout_marginLeft="263dp"
+                android:textSize="14sp"
+                android:text="Mind"/>
+        </LinearLayout>
+
+    </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="116dp"
+            android:orientation="horizontal"
+            android:layout_marginTop="25dp"
+            android:layout_marginLeft="10dp">
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <ImageView
+                    android:layout_width="90dp"
+                    android:layout_height="80dp"
+                    android:src="@drawable/trophy_meta_empty"
+                    android:id="@+id/trophy_meta"
+                    android:layout_gravity="top"
+                    android:layout_marginLeft="15dp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="33dp"
+                    android:layout_marginLeft="46dp"
+                    android:textSize="14sp"
+                    android:text="Meta"/>
+            </LinearLayout>
+        </LinearLayout>
+
+
+</LinearLayout>
+
+    </TableLayout>
+</ScrollView>

@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+    <TableLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:stretchColumns="1"
+        >
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    android:background="@drawable/paper_texture"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:showIn="@layout/app_bar_categories"
+    tools:context=".CategoriesActivity">
+
+
+    <TextView
+        android:text="Pick a category.."
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:paddingTop="?android:attr/actionBarSize"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="15dp"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:id="@+id/choose"
+        android:textSize="30sp"
+        />
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="135dp"
+        android:orientation="horizontal"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginRight="5dp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_marginRight="12dp">
+            <ImageButton
+                android:layout_width="120dp"
+                android:layout_height="92dp"
+                android:background="@null"
+                android:id="@+id/random"
+                android:src="@drawable/random"
+                android:layout_gravity="start"
+                android:layout_marginLeft="15dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="Random"
+                android:textSize="16sp"
+                android:layout_marginLeft="46dp"
+                android:layout_marginTop="11dp"/>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <ImageButton
+                android:layout_width="120dp"
+                android:layout_height="92dp"
+                android:background="@null"
+                android:id="@+id/culture"
+                android:src="@drawable/culture"
+                android:layout_gravity="start"
+                android:layout_marginLeft="15dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="Culture"
+                android:textSize="16sp"
+                android:layout_marginLeft="48dp"
+                android:layout_marginTop="11dp"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="135dp"
+        android:orientation="horizontal"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginRight="5dp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_marginRight="7dp">
+            <ImageButton
+                android:layout_width="120dp"
+                android:layout_height="92dp"
+                android:background="@null"
+                android:id="@+id/entertainment"
+                android:src="@drawable/entertainment"
+                android:layout_gravity="start"
+                android:layout_marginLeft="15dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="Entertainment"
+                android:textSize="16sp"
+                android:layout_marginLeft="27dp"
+                android:layout_marginTop="11dp"/>
+
+        </LinearLayout>
+
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <ImageButton
+                android:layout_width="120dp"
+                android:layout_height="92dp"
+                android:background="@null"
+                android:id="@+id/geography"
+                android:src="@drawable/geography"
+                android:layout_gravity="start"
+                android:layout_marginLeft="15dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="Geography"
+                android:textSize="16sp"
+                android:layout_marginLeft="39dp"
+                android:layout_marginTop="11dp"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="135dp"
+        android:orientation="horizontal"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginRight="5dp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_marginRight="7dp">
+
+            <ImageButton
+                android:layout_width="120dp"
+                android:layout_height="92dp"
+                android:background="@null"
+                android:id="@+id/history"
+                android:src="@drawable/history"
+                android:layout_gravity="start"
+                android:layout_marginLeft="15dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="History"
+                android:textSize="16sp"
+                android:layout_marginLeft="55dp"
+                android:layout_marginTop="11dp"/>
+
+        </LinearLayout>
+
+
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ImageButton
+                android:layout_width="120dp"
+                android:layout_height="92dp"
+                android:background="@null"
+                android:id="@+id/plantsAnimals"
+                android:src="@drawable/plants_animals"
+                android:layout_gravity="start"
+                android:layout_marginLeft="15dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="Plants &amp; Animals"
+                android:textSize="16sp"
+                android:layout_marginLeft="29dp"
+                android:layout_marginTop="11dp"/>
+
+        </LinearLayout>
+        </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="135dp"
+        android:orientation="horizontal"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginRight="5dp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_marginRight="7dp">
+
+            <ImageButton
+                android:layout_width="120dp"
+                android:layout_height="92dp"
+                android:background="@null"
+                android:id="@+id/science"
+                android:src="@drawable/science"
+                android:layout_gravity="start"
+                android:layout_marginLeft="15dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="Science"
+                android:textSize="16sp"
+                android:layout_marginLeft="48dp"
+                android:layout_marginTop="11dp"/>
+
+        </LinearLayout>
+
+
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ImageButton
+                android:layout_width="120dp"
+                android:layout_height="92dp"
+                android:background="@null"
+                android:id="@+id/empty"
+                android:layout_gravity="start"
+                android:layout_marginLeft="15dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:textSize="16sp"
+                android:layout_marginLeft="29dp"
+                android:layout_marginTop="11dp"/>
+
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>
+
+    </TableLayout>
+</ScrollView>
